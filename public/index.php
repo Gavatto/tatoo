@@ -7,12 +7,12 @@ define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
-| Check If The Application Is Under Maintenance
-|--------------------------------------------------------------------------
+| Проверьте, находится ли приложение на обслуживании
+|------------------------------------------------- -------------------------
 |
-| If the application is in maintenance / demo mode via the "down" command
-| we will load this file so that any pre-rendered content can be shown
-| instead of starting the framework, which could cause an exception.
+| Если приложение находится в режиме обслуживания/демо через команду "вниз"
+| мы загрузим этот файл, чтобы можно было показать любой предварительно обработанный контент
+| вместо запуска фреймворка, что может вызвать исключение.
 |
 */
 
@@ -22,12 +22,12 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 
 /*
 |--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
+| Зарегистрируйте автозагрузчик
+|------------------------------------------------- -------------------------
 |
-| Composer provides a convenient, automatically generated class loader for
-| this application. We just need to utilize it! We'll simply require it
-| into the script here so we don't need to manually load our classes.
+| Composer предоставляет удобный, автоматически генерируемый загрузчик классов для
+| это приложение. Нам просто нужно использовать это! Мы просто потребуем это
+| в скрипт здесь, поэтому нам не нужно вручную загружать наши классы.
 |
 */
 
@@ -35,12 +35,12 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
+| Запустите приложение
+|------------------------------------------------- -------------------------
 |
-| Once we have the application, we can handle the incoming request using
-| the application's HTTP kernel. Then, we will send the response back
-| to this client's browser, allowing them to enjoy our application.
+| Получив приложение, мы можем обработать входящий запрос, используя
+| HTTP-ядро приложения. Затем мы отправим ответ обратно
+| в браузер этого клиента, позволяя им пользоваться нашим приложением.
 |
 */
 
