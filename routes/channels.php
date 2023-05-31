@@ -4,12 +4,12 @@ use Illuminate\Support\Facades\Broadcast;
 
 /*
 |--------------------------------------------------------------------------
-| Broadcast Channels
-|--------------------------------------------------------------------------
+| Трансляція каналів
+|------------------------------------------------ ------------------------
 |
-| Here you may register all of the event broadcasting channels that your
-| application supports. The given channel authorization callbacks are
-| used to check if an authenticated user can listen to the channel.
+| Тут ви можете зареєструвати всі ваші канали трансляції подій
+| додаток підтримує. Дані зворотні виклики авторизації каналу є
+| використовується для перевірки, чи може автентифікований користувач слухати канал.
 |
 */
 

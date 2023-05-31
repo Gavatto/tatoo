@@ -5,12 +5,12 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
+| Маршрути API
+|------------------------------------------------ ------------------------
 |
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "api" middleware group. Make something great!
+| Тут ви можете зареєструвати маршрути API для своєї програми. Ці
+| маршрути завантажуються RouteServiceProvider, і всі вони будуть
+| бути призначеним до групи проміжного програмного забезпечення "api". Зробіть щось чудове!
 |
 */
 

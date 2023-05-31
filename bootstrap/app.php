@@ -2,12 +2,12 @@
 
 /*
 |--------------------------------------------------------------------------
-| Create The Application
-|--------------------------------------------------------------------------
+| Створіть додаток
+|------------------------------------------------ ------------------------
 |
-| The first thing we will do is create a new Laravel application instance
-| which serves as the "glue" for all the components of Laravel, and is
-| the IoC container for the system binding all of the various parts.
+| Перше, що ми зробимо, це створимо новий екземпляр програми Laravel
+| який служить «клеєм» для всіх компонентів Laravel
+| контейнер IoC для системи, що зв’язує всі різні частини.
 |
 */
 
@@ -17,12 +17,12 @@ $app = new Illuminate\Foundation\Application(
 
 /*
 |--------------------------------------------------------------------------
-| Bind Important Interfaces
-|--------------------------------------------------------------------------
+| Прив’язка важливих інтерфейсів
+|------------------------------------------------ ------------------------
 |
-| Next, we need to bind some important interfaces into the container so
-| we will be able to resolve them when needed. The kernels serve the
-| incoming requests to this application from both the web and CLI.
+| Далі нам потрібно прив’язати деякі важливі інтерфейси до контейнера
+| ми зможемо вирішити їх, коли буде потрібно. Ядра служать
+| вхідні запити до цієї програми як з Інтернету, так і з CLI.
 |
 */
 
@@ -43,12 +43,12 @@ $app->singleton(
 
 /*
 |--------------------------------------------------------------------------
-| Return The Application
-|--------------------------------------------------------------------------
+| Повернути заявку
+|------------------------------------------------ ------------------------
 |
-| This script returns the application instance. The instance is given to
-| the calling script so we can separate the building of the instances
-| from the actual running of the application and sending responses.
+| Цей сценарій повертає екземпляр програми. Примірник надано
+| сценарій виклику, щоб ми могли відокремити створення екземплярів
+| від фактичного запуску програми та надсилання відповідей.
 |
 */
 

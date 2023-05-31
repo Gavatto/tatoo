@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cross-Origin Resource Sharing (CORS) Configuration
-    |--------------------------------------------------------------------------
+    | Конфігурація спільного використання ресурсів між джерелами (CORS).
+    |------------------------------------------------ ------------------------
     |
-    | Here you may configure your settings for cross-origin resource sharing
-    | or "CORS". This determines what cross-origin operations may execute
-    | in web browsers. You are free to adjust these settings as needed.
+    | Тут ви можете налаштувати параметри спільного використання ресурсів із різних джерел
+    | або "CORS". Це визначає, які операції між джерелами можуть виконуватися
+    | у веб-браузерах. Ви можете налаштувати ці параметри за потреби.
     |
     | To learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     |

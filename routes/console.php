@@ -5,12 +5,12 @@ use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
-| Console Routes
-|--------------------------------------------------------------------------
+| Консольні маршрути
+|------------------------------------------------ ------------------------
 |
-| This file is where you may define all of your Closure based console
-| commands. Each Closure is bound to a command instance allowing a
-| simple approach to interacting with each command's IO methods.
+| У цьому файлі ви можете визначити всю свою консоль на основі Closure
+| команди. Кожне закриття прив’язане до екземпляра команди, що дозволяє a
+| простий підхід до взаємодії з методами введення-виведення кожної команди.
 |
 */
 

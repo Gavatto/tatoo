@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Hash Driver
-    |--------------------------------------------------------------------------
+    | Типовий хеш-драйвер
+    |------------------------------------------------ ------------------------
     |
-    | This option controls the default hash driver that will be used to hash
-    | passwords for your application. By default, the bcrypt algorithm is
-    | used; however, you remain free to modify this option if you wish.
+    | Цей параметр керує хеш-драйвером за умовчанням, який використовуватиметься для хешування
+    | паролі для вашої програми. За замовчуванням використовується алгоритм bcrypt
+    | використовуваний; однак ви можете змінити цей параметр, якщо бажаєте.
     |
     | Supported: "bcrypt", "argon", "argon2id"
     |
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Bcrypt Options
-    |--------------------------------------------------------------------------
+    | Параметри Bcrypt
+    |------------------------------------------------ ------------------------
     |
-    | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Bcrypt algorithm. This will allow you
-    | to control the amount of time it takes to hash the given password.
+    | Тут ви можете вказати параметри конфігурації, які слід використовувати, коли
+    | паролі хешуються за допомогою алгоритму Bcrypt. Це дозволить вам
+    | щоб контролювати час, необхідний для хешування даного пароля.
     |
     */
 
@@ -34,12 +34,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Argon Options
-    |--------------------------------------------------------------------------
+    | Варіанти аргону
+    |------------------------------------------------ ------------------------
     |
-    | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Argon algorithm. These will allow you
-    | to control the amount of time it takes to hash the given password.
+    | Тут ви можете вказати параметри конфігурації, які слід використовувати, коли
+    | паролі хешуються за допомогою алгоритму Argon. Це дозволить вам
+    | щоб контролювати час, необхідний для хешування даного пароля.
     |
     */
 

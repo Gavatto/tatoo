@@ -9,12 +9,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Log Channel
-    |--------------------------------------------------------------------------
+    | Канал журналу за замовчуванням
+    |------------------------------------------------ ------------------------
     |
-    | This option defines the default log channel that gets used when writing
-    | messages to the logs. The name specified in this option should match
-    | one of the channels defined in the "channels" configuration array.
+    | Цей параметр визначає стандартний канал журналу, який використовується під час запису
+    | повідомлення до журналів. Ім'я, указане в цьому параметрі, має збігатися
+    | один із каналів, визначених у масиві конфігурації "канали".
     |
     */
 
@@ -22,12 +22,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Deprecations Log Channel
-    |--------------------------------------------------------------------------
+    | Канал журналу скасування
+    |------------------------------------------------ ------------------------
     |
-    | This option controls the log channel that should be used to log warnings
-    | regarding deprecated PHP and library features. This allows you to get
-    | your application ready for upcoming major versions of dependencies.
+    | Цей параметр керує каналом журналу, який слід використовувати для реєстрації попереджень
+    | щодо застарілих функцій PHP і бібліотек. Це дозволяє отримати
+    | ваша програма готова до майбутніх основних версій залежностей.
     |
     */
 
@@ -38,12 +38,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Log Channels
-    |--------------------------------------------------------------------------
+    | Журнал каналів
+    |------------------------------------------------ ------------------------
     |
-    | Here you may configure the log channels for your application. Out of
-    | the box, Laravel uses the Monolog PHP logging library. This gives
-    | you a variety of powerful log handlers / formatters to utilize.
+    | Тут ви можете налаштувати канали журналу для вашої програми. З
+    | Laravel використовує бібліотеку журналу Monolog PHP. Це дає
+    | ви можете використовувати безліч потужних обробників/форматувальників журналів.
     |
     | Available Drivers: "single", "daily", "slack", "syslog",
     |                    "errorlog", "monolog",

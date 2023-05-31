@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Defaults
-    |--------------------------------------------------------------------------
+    | Автентифікація за замовчуванням
+    |------------------------------------------------ ------------------------
     |
-    | This option controls the default authentication "guard" and password
-    | reset options for your application. You may change these defaults
-    | as required, but they're a perfect start for most applications.
+    | Ця опція керує параметрами автентифікації за замовчуванням і паролем
+    | скинути параметри для вашої програми. Ви можете змінити ці параметри за замовчуванням
+    | за потреби, але вони є ідеальним початком для більшості програм.
     |
     */
 
@@ -20,18 +20,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Guards
-    |--------------------------------------------------------------------------
+    | Охоронці автентифікації
+    |------------------------------------------------ ------------------------
     |
-    | Next, you may define every authentication guard for your application.
-    | Of course, a great default configuration has been defined for you
-    | here which uses session storage and the Eloquent user provider.
+    | Далі ви можете визначити кожен захист автентифікації для вашої програми.
+    | Звичайно, для вас визначено чудову конфігурацію за замовчуванням
+    | тут, який використовує сховище сеансу та постачальника користувача Eloquent.
     |
-    | All authentication drivers have a user provider. This defines how the
-    | users are actually retrieved out of your database or other storage
-    | mechanisms used by this application to persist your user's data.
+    | Усі драйвери автентифікації мають постачальника користувача. Це визначає, як
+    | користувачів фактично вилучаються з вашої бази даних чи іншого сховища
+    | механізми, які використовує ця програма для збереження даних вашого користувача.
     |
-    | Supported: "session"
+    | Підтримується: "сесія"
     |
     */
 
@@ -44,18 +44,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | User Providers
-    |--------------------------------------------------------------------------
+    | Постачальники користувачів
+    |------------------------------------------------ ------------------------
     |
-    | All authentication drivers have a user provider. This defines how the
-    | users are actually retrieved out of your database or other storage
-    | mechanisms used by this application to persist your user's data.
+    | Усі драйвери автентифікації мають постачальника користувача. Це визначає, як
+    | користувачів фактично вилучаються з вашої бази даних чи іншого сховища
+    | механізми, які використовує ця програма для збереження даних вашого користувача.
     |
-    | If you have multiple user tables or models you may configure multiple
-    | sources which represent each model / table. These sources may then
-    | be assigned to any extra authentication guards you have defined.
+    | Якщо у вас є кілька таблиць або моделей користувачів, ви можете налаштувати кілька
+    | джерела, які представляють кожну модель / таблицю. Ці джерела можуть потім
+    | буде призначено будь-яким додатковим охоронцям автентифікації, які ви визначили.
     |
-    | Supported: "database", "eloquent"
+    | Підтримується: "база даних", "красномовний"
     |
     */
 
@@ -73,20 +73,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Resetting Passwords
-    |--------------------------------------------------------------------------
+    | Скидання паролів
+    |------------------------------------------------ ------------------------
     |
-    | You may specify multiple password reset configurations if you have more
-    | than one user table or model in the application and you want to have
-    | separate password reset settings based on the specific user types.
+    | Ви можете вказати кілька конфігурацій скидання пароля, якщо у вас є більше
+    | ніж одну таблицю або модель користувача в програмі, яку ви хочете мати
+    | окремі налаштування скидання пароля на основі конкретних типів користувачів.
     |
-    | The expiry time is the number of minutes that each reset token will be
-    | considered valid. This security feature keeps tokens short-lived so
-    | they have less time to be guessed. You may change this as needed.
+    | Термін дії – це кількість хвилин для кожного маркера скидання
+    | вважається дійсним. Ця функція безпеки зберігає токени недовго
+    | у них менше часу, щоб вгадати. Ви можете змінити це за потреби.
     |
-    | The throttle setting is the number of seconds a user must wait before
-    | generating more password reset tokens. This prevents the user from
-    | quickly generating a very large amount of password reset tokens.
+    | Налаштування дросельної заслінки – це кількість секунд, яку користувач повинен зачекати, перш ніж
+    | створення додаткових токенів для скидання пароля. Це запобігає користувачеві
+    | швидко генерує дуже велику кількість токенів для скидання пароля.
     |
     */
 
@@ -101,12 +101,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Password Confirmation Timeout
-    |--------------------------------------------------------------------------
+    | Час очікування підтвердження пароля
+    |------------------------------------------------ ------------------------
     |
-    | Here you may define the amount of seconds before a password confirmation
-    | times out and the user is prompted to re-enter their password via the
-    | confirmation screen. By default, the timeout lasts for three hours.
+    | Тут ви можете визначити кількість секунд до підтвердження пароля
+    | час очікування, і користувачеві пропонується повторно ввести свій пароль за допомогою
+    | екран підтвердження. За замовчуванням тайм-аут триває три години.
     |
     */
 

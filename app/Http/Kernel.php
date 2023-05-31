@@ -7,9 +7,9 @@ use Illuminate\Foundation\Http\Kernel as HttpKernel;
 class Kernel extends HttpKernel
 {
     /**
-     * The application's global HTTP middleware stack.
+     * Глобальний стек проміжного програмного забезпечення HTTP програми.
      *
-     * These middleware are run during every request to your application.
+     * Ці проміжні програми запускаються під час кожного запиту до вашої програми.
      *
      * @var array<int, class-string|string>
      */
@@ -24,7 +24,7 @@ class Kernel extends HttpKernel
     ];
 
     /**
-     * The application's route middleware groups.
+     * Групи проміжного програмного забезпечення маршруту програми.
      *
      * @var array<string, array<int, class-string|string>>
      */
@@ -46,9 +46,9 @@ class Kernel extends HttpKernel
     ];
 
     /**
-     * The application's middleware aliases.
+     * Псевдоніми проміжного програмного забезпечення програми.
      *
-     * Aliases may be used instead of class names to conveniently assign middleware to routes and groups.
+     * Псевдоніми можна використовувати замість імен класів, щоб зручно призначати проміжне програмне забезпечення для маршрутів і груп.
      *
      * @var array<string, class-string|string>
      */

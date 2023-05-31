@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Broadcaster
-    |--------------------------------------------------------------------------
+    | Мовник за замовчуванням
+    |------------------------------------------------ ------------------------
     |
-    | This option controls the default broadcaster that will be used by the
-    | framework when an event needs to be broadcast. You may set this to
-    | any of the connections defined in the "connections" array below.
+    | Цей параметр керує мовником за замовчуванням, який використовуватиметься
+    | рамки, коли подію потрібно транслювати. Ви можете встановити це значення
+    | будь-які з’єднання, визначені в масиві «з’єднання» нижче.
     |
     | Supported: "pusher", "ably", "redis", "log", "null"
     |
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Broadcast Connections
-    |--------------------------------------------------------------------------
+    | Широкомовні підключення
+    |------------------------------------------------ ------------------------
     |
-    | Here you may define all of the broadcast connections that will be used
-    | to broadcast events to other systems or over websockets. Samples of
-    | each available type of connection are provided inside this array.
+    | Тут ви можете визначити всі широкомовні підключення, які будуть використовуватися
+    | транслювати події в інші системи або через веб-сокети. Зразки
+    | кожен доступний тип підключення надається всередині цього масиву.
     |
     */
 

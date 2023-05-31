@@ -6,12 +6,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Database Connection Name
-    |--------------------------------------------------------------------------
+    | Назва підключення до бази даних за замовчуванням
+    |------------------------------------------------ ------------------------
     |
-    | Here you may specify which of the database connections below you wish
-    | to use as your default connection for all database work. Of course
-    | you may use many connections at once using the Database library.
+    | Тут ви можете вказати, які з наведених нижче підключень до бази даних ви бажаєте
+    | використовувати як стандартне підключення для всієї роботи з базою даних. Звичайно
+    | ви можете використовувати багато з'єднань одночасно за допомогою бібліотеки бази даних.
     |
     */
 
@@ -19,17 +19,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Database Connections
-    |--------------------------------------------------------------------------
+    | Підключення до бази даних
+    |------------------------------------------------ ------------------------
     |
-    | Here are each of the database connections setup for your application.
-    | Of course, examples of configuring each database platform that is
-    | supported by Laravel is shown below to make development simple.
+    | Нижче наведено кожне налаштування підключення до бази даних для вашої програми.
+    | Звичайно, приклади налаштування кожної платформи бази даних
+    | підтримується Laravel, показано нижче, щоб спростити розробку.
     |
     |
-    | All database work in Laravel is done through the PHP PDO facilities
-    | so make sure you have the driver for your particular database of
-    | choice installed on your machine before you begin development.
+    | Уся робота з базою даних у Laravel виконується за допомогою засобів PHP PDO
+    | тому переконайтеся, що у вас є драйвер для конкретної бази даних
+    | вибір, встановлений на вашій машині перед початком розробки.
     |
     */
 
@@ -97,12 +97,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Migration Repository Table
-    |--------------------------------------------------------------------------
+    | Таблиця сховища міграції
+    |------------------------------------------------ ------------------------
     |
-    | This table keeps track of all the migrations that have already run for
-    | your application. Using this information, we can determine which of
-    | the migrations on disk haven't actually been run in the database.
+    | У цій таблиці відстежуються всі міграції, які вже запущено
+    | ваша заявка. Використовуючи цю інформацію, ми можемо визначити, який із
+    | міграції на диску фактично не запускалися в базі даних.
     |
     */
 
@@ -110,12 +110,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Redis Databases
-    |--------------------------------------------------------------------------
+    | Бази даних Redis
+    |------------------------------------------------ ------------------------
     |
-    | Redis is an open source, fast, and advanced key-value store that also
-    | provides a richer body of commands than a typical key-value system
-    | such as APC or Memcached. Laravel makes it easy to dig right in.
+    | Redis — це швидке та розширене сховище ключів і значень з відкритим вихідним кодом
+    | надає більш багатий набір команд, ніж типова система ключ-значення
+    | наприклад APC або Memcached. Laravel дозволяє легко заглиблюватися.
     |
     */
 

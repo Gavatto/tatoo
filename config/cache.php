@@ -6,12 +6,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cache Store
-    |--------------------------------------------------------------------------
+    | Сховище кешу за замовчуванням
+    |------------------------------------------------ ------------------------
     |
-    | This option controls the default cache connection that gets used while
-    | using this caching library. This connection is used when another is
-    | not explicitly specified when executing a given caching function.
+    | Цей параметр керує підключенням до кешу за умовчанням, яке використовується під час
+    | за допомогою цієї бібліотеки кешування. Цей зв’язок використовується тоді, коли є інший
+    | не вказано явно під час виконання певної функції кешування.
     |
     */
 
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Stores
-    |--------------------------------------------------------------------------
+    | Кеш-магазини
+    |------------------------------------------------ ------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
+    | Тут ви можете визначити всі «сховища» кешу для вашої програми як
+    | а також їхні водії. Ви навіть можете визначити кілька магазинів для
+    | той самий драйвер кешу для групування типів елементів, що зберігаються у ваших кешах.
     |
     | Supported drivers: "apc", "array", "database", "file",
     |         "memcached", "redis", "dynamodb", "octane", "null"
@@ -97,12 +97,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Key Prefix
-    |--------------------------------------------------------------------------
+    | Префікс ключа кешу
+    |------------------------------------------------ ------------------------
     |
-    | When utilizing the APC, database, memcached, Redis, or DynamoDB cache
-    | stores there might be other applications using the same cache. For
-    | that reason, you may prefix every cache key to avoid collisions.
+    | Під час використання кешу APC, бази даних, memcached, Redis або DynamoDB
+    | магазини можуть бути інші програми, які використовують той самий кеш. для
+    | з цієї причини ви можете додати префікс до кожного ключа кешу, щоб уникнути зіткнень.
     |
     */
 
